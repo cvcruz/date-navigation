@@ -1,0 +1,64 @@
+.heavyText {
+  font-weight:bold;
+}
+
+.text-arrow {
+  font-family: "Courier New",Courier,monospace;
+  font-size: 2em;
+  margin: 0 0.1em;
+  vertical-align: sub;
+}
+
+/* DATE NAVIGATION */
+#date_nav_wrapper {
+  padding:10px;
+}
+
+#dateRangeText {
+  display:inline-block;
+  min-width:250px;
+  width:250px;
+  text-align:center;
+}
+.date_nav {
+  list-style:none;
+  list-style-position: outside;
+  margin:0 0 0 -40px;
+  padding:0;
+}
+
+.plain_li {
+  display:inline;
+  padding:5px;
+  margin:0;
+  text-indent:3px;
+}
+
+#date_nav_ul_tabs .nav_li, .nav_dash_li,  #date_nav_ul_top .nav_li{
+  background-color:#cccccc;
+  background-image: -webkit-linear-gradient(top, #cccccc, #ffffff, #e5e5e5);
+  background-image: -moz-linear-gradient(top, #cccccc, #ffffff, #e5e5e5);
+  border:solid 1px #ccc;
+  cursor:pointer;
+  display:inline;
+  margin:0;
+  padding:5px;
+  text-indent:3px;
+}
+
+.nav_li {
+  cursor:pointer;
+  color:#4D4D4D;
+}
+
+.nav_on{
+  background-color:#aaa;
+  background-image:none;
+  color:#ccc;
+  cursor:default !important;
+}
+
+.disabled {
+    color:#ccc;
+    cursor:default !important;
+}
